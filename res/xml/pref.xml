@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android=
+    "http://schemas.android.com/apk/res/android" >
+
+    <Preference 
+        android:key="normal"
+        android:title="てすと１"
+        android:summary="てすと１です" />
+    <Preference 
+        android:key="test2"
+        android:title="てすと２"
+        android:summary="てすと２です" />
+    <CheckBoxPreference 
+        android:key="check"
+        android:title="てすと３"
+        android:summary="てすと３です"
+		android:defaultValue="true" />
+    <EditTextPreference 
+        android:key="text"
+        android:title="てきすと"
+        android:summary="てきすとです"
+        android:defaultValue="aaaa"
+        android:dialogTitle="たいとる４" />
+    <ListPreference
+        android:key="list"
+        android:title="リスト選択"
+        android:summary="リストを選択します"
+        android:dialogTitle="選択してください"
+        android:entries="@array/list1_entries"
+        android:entryValues="@array/list1_values" />
+    
+    
+</PreferenceScreen>
