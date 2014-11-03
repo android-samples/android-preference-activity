@@ -1,4 +1,4 @@
-android-preferences
-===================
+android-preference-activity
+===========================
 
 SharedPreferences and PreferenceActivity
